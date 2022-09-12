@@ -33,6 +33,11 @@
             double getArea();
     };
 
+    int main()
+    {
+        return 0;
+    }
+
 ~~~
 
 ## Access Control Modifiers
@@ -44,6 +49,9 @@
 ### public
 
 ## Constructors (Yapıcı Fonksiyonlar)
+
+~~~C++
+~~~
 
 ### Overloading Constructors (Yapıcı Fonksiyonların Aşırı Yüklenmesi)
 
