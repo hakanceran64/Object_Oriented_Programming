@@ -1,64 +1,9 @@
-# ObjectOrientedProgramming
+# Nesne Yönelimli Programlama (Object Oriented Programming)
+Nesne yönelimli programlama bir programlama paradigmasıdır.
+Temel olarak amacımız yazılım geliştirme sürecini daha etkili ve verimli hale getirmektir.
+Bu sayede kodun okunaklılığı ve anlaşılırlığını arttırarak sistemin bakımını ve genişletilmesini kolaylaştırmaktır.
 
-## Class (Sınıf)
-
-## Class Definition
-
-~~~C++
-
-    #include <iostream>
-    #include <string>
-
-    using namespace std;
-
-    class Circle
-    {
-        private:
-            // Data member (variable)
-            double radius;
-            string color;
-
-        protected:
-            int x, y;
-
-        public:
-            // Constructor function
-            Circle(){}
-
-            // Destructor function
-            ~Circle(){}
-
-            // Member functions
-            double getRadius();
-            double getArea();
-    };
-
-    int main()
-    {
-        return 0;
-    }
-
-~~~
-
-## Access Control Modifiers
-
-### private
-
-### protected
-
-### public
-
-## Constructors (Yapıcı Fonksiyonlar)
-
-~~~C++
-~~~
-
-### Overloading Constructors (Yapıcı Fonksiyonların Aşırı Yüklenmesi)
-
-## Destructor (Yıkıcı Fonksiyonlar)
-
----
-
-## Abstraction (Soyutlama)
-
-## Polymorphism (Polimorfizm - Çok Biçimlilik)
+- [Kapsülleme (Encapsulation)](Encapsulation/README.md)
+- [Kalıtım (Inheritance)](Inheritance/README.md)
+- [Veri Soyutlama (Data Abstraction)](Abstraction/README.md)
+- [Polimorfizm - Çok Biçimlilik (Polymorphism)](Polymorphism/README.md)

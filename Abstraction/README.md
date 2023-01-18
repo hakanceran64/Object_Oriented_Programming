@@ -1,0 +1,1 @@
+# Veri Soyutlama (Data Abstraction)
